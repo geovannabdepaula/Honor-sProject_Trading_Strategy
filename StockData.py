@@ -5,7 +5,7 @@ SHORT_WINDOW = 20
 LONG_WINDOW = 50
 INITIAL_CAPITAL = 1000
 
-# Load your previously saved stock data
+# First, I loaded my previously saved stock data
 # The CSV file should have at least a 'date' and 'close' column.
 # If 'date' is present, parse it and set it as index.
 df = pd.read_csv('daily_TSLA.csv', parse_dates=True)
